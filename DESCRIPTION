@@ -1,12 +1,13 @@
 Package: valstats
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Valorant Statistics Cruncher
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+Author: Jayden Chrzanowski
+Maintainer: shoodietech@gmail.com
+Description: A package that aids in the cleaning, analysis, and visualization of
+    Valorant data. Includes functions that can be paired with data from 
+    TheJoaquiGamer's RIB Web Scraper Application. 
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Depends: 

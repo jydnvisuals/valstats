@@ -1,3 +1,11 @@
-## code to prepare `DATASET` dataset goes here
-
-usethis::use_data(DATASET, overwrite = TRUE)
+usethis::use_data(Champs22Data, overwrite = TRUE)
+usethis::use_data(Champs22Matches, overwrite = TRUE)
+usethis::use_data(Champs22Teams, overwrite = TRUE)
+usethis::use_data(Champs22Rounds, overwrite = TRUE)
+usethis::use_data(Champs22KDA, overwrite = TRUE)
+usethis::use_data(Champs22Kills, overwrite = TRUE)
+usethis::use_data(Champs22Economy, overwrite = TRUE)
+usethis::use_data(Champs22RPS, overwrite = TRUE)
+usethis::use_data(Champs22XvY, overwrite = TRUE)
+usethis::use_data(Champs22Events, overwrite = TRUE)
+usethis::use_data(Champs22Assists, overwrite = TRUE)

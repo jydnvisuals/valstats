@@ -8,23 +8,23 @@
 #'
 #' @format A list with 10 data frames
 #' \describe{
-#'    \item{Champs22Matches}{A data frame of match data with 86 rows and 14
+#'    \item{Champs22Matches}{A data frame of match data with 86 rows and 13
 #'    columns}
-#'    \item{Champs22Teams}{A data frame of team data with 86 rows and 16
+#'    \item{Champs22Teams}{A data frame of team data with 86 rows and 15
 #'    columns}
-#'    \item{Champs22Rounds}{A data frame of round data with 1880 rows and 24
+#'    \item{Champs22Rounds}{A data frame of round data with 1880 rows and 23
 #'    columns}
-#'    \item{Champs22KDA}{A data frame of KDA data with 860 rows and 8 columns}
-#'    \item{Champs22Kills}{A data frame of kills data with 12823 rows and 27
+#'    \item{Champs22KDA}{A data frame of KDA data with 860 rows and 7 columns}
+#'    \item{Champs22Kills}{A data frame of kills data with 12823 rows and 26
 #'    columns}
 #'    \item{Champs22Economy}{A data frame of economy data with 18800 rows and
-#'    15 columns}
+#'    14 columns}
 #'    \item{Champs22RPS}{A data frame of round player stats with 18800 rows and
-#'    25 columns}
-#'    \item{Champs22XvY}{A data frame of XvY data with 5600 rows and 11 columns}
-#'    \item{Champs22Events}{A data frame of events data with 16504 rows and 20
+#'    24 columns}
+#'    \item{Champs22XvY}{A data frame of XvY data with 5600 rows and 10 columns}
+#'    \item{Champs22Events}{A data frame of events data with 16504 rows and 19
 #'    columns}
-#'    \item{Champs22Assists}{A data frame of assists data with 5156 rows and 8
+#'    \item{Champs22Assists}{A data frame of assists data with 5156 rows and 7
 #'    columns}
 #' }
 #' @source \url{https://www.rib.gg/}

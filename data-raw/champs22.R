@@ -24,3 +24,5 @@ names(Champs22Data) <- c("Champs22Matches", "Champs22Teams", "Champs22Rounds",
                          "Champs22KDA", "Champs22Kills", "Champs22Economy",
                          "Champs22RPS", "Champs22XvY", "Champs22Events",
                          "Champs22Assists")
+
+list2env(Champs22Data, .GlobalEnv)
