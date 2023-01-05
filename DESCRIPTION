@@ -2,14 +2,15 @@ Package: valstats
 Type: Package
 Title: Valorant Statistics Cruncher
 Version: 0.1.0
-Author: Jayden Chrzanowski
-Maintainer: shoodietech@gmail.com
-Description: A package that aids in the cleaning, analysis, and visualization of
+Authors@R: person("Jayden", "Chrzanowski", email = "shoodietech@gmail.com",
+  role = c("aut", "cre"))
+Description: Aids in the cleaning, analysis, and visualization of
     Valorant data. Includes functions that can be paired with data from 
     TheJoaquiGamer's RIB Web Scraper Application. 
-License: MIT
+License: use_mit_license()
 Encoding: UTF-8
 LazyData: true
 Depends: 
-    R (>= 2.10)
+    R (>= 2.10), magrittr
+Imports: dplyr, ggplot2, tidyr
 RoxygenNote: 7.2.3
