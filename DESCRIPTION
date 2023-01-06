@@ -11,6 +11,6 @@ License: use_mit_license()
 Encoding: UTF-8
 LazyData: true
 Depends: 
-    R (>= 2.10), magrittr
+    R (>= 2.10), magrittr, readxl
 Imports: dplyr, ggplot2, tidyr
 RoxygenNote: 7.2.3
