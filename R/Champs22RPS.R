@@ -1,0 +1,46 @@
+#' Valorant Champions Tour 2022 Champions Istanbul RPS Data
+#'
+#' Round Player Stats Data from all 2022 Champions Istanbul group and playoff
+#' stage rounds. This data set also contains Ids that tie this data frame
+#' to other data frames in the set.
+#'
+#'
+#' @format A data frame with 18800 rows and 24 columns
+#' \describe{
+#'    \item{matchId}{A unique ID given to each match}
+#'    \item{roundId}{A unique ID given to each round}
+#'    \item{roundNumber}{The in game round number}
+#'    \item{playerId}{A unique ID given to each player}
+#'    \item{teamId}{A unique ID given to each team}
+#'    \item{side}{Lists the side the player was on; 2 factors: def or atk}
+#'    \item{acs}{The amount of combat score earned by the player during the
+#'    round}
+#'    \item{kills}{The number of kills the player had in the round}
+#'    \item{firstKills}{Whether the player had the first kill in the round;
+#'    1 = yes, 0 = no}
+#'    \item{deaths}{The number of deaths the player had in the round}
+#'    \item{firstDeaths}{Whether the player had the first death in the round;
+#'    1 = yes, 0 = no}
+#'    \item{assists}{The number of assists the player had in the round}
+#'    \item{damage}{The amount of damage the player dealt in the round}
+#'    \item{headshots}{The amount of shots that hit an enemy's head in the
+#'    round}
+#'    \item{bodyshots}{The amount of shots that hit an enemy's body in the
+#'    round}
+#'    \item{legshots}{The amount of shots that hit an enemy's leg in the
+#'    round}
+#'    \item{plants}{Whether the player planted the bomb in the round; 1 = yes,
+#'    0 = no}
+#'    \item{defuses}{Whether the player defused the bomb in the round; 1 = yes,
+#'    0 = no}
+#'    \item{clutches}{Whether the player clutched the round; 1 = yes,
+#'    0 = no}
+#'    \item{clutchOpponents}{The number of opponents the player clutched
+#'    against}
+#'    \item{clutchOpportunities}{Whether the player was put in a clutch
+#'    opportunity in the round; 1 = yes, 0 = no}
+#'    \item{impact}{the amount that a player contributed to the round's win
+#'    probabilty}
+#' }
+#' @source \url{https://www.rib.gg/}
+"Champs22RPS"

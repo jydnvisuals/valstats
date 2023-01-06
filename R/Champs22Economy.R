@@ -1,0 +1,31 @@
+#' Valorant Champions Tour 2022 Champions Istanbul Economy Data
+#'
+#' Data from all 2022 Champions Istanbul group and playoff stage rounds
+#' economy information. This data set also contains Ids that tie this data frame
+#' to other data frames in the set.
+#'
+#'
+#' @format A data frame with 18800 rows and 14 columns
+#' \describe{
+#'    \item{roundId}{A unique ID given to each round}
+#'    \item{roundNumber}{The in game round number}
+#'    \item{playerId}{A unique ID given to each player}
+#'    \item{agent}{The in game agent the player was playing}
+#'    \item{score}{The amount of combat score earned by the player during the
+#'    round}
+#'    \item{weapon}{The most expensive weapon bought by the player that round}
+#'    \item{armorId}{Indicates the level of armor the player bought; 2 factors:
+#'    light, heavy; Missing data implies no armor was bought}
+#'    \item{remainingCreds}{The number of credits remaining for the player after
+#'    buying the loadout}
+#'    \item{spentCreds}{The amount of credits spent by the player for the round}
+#'    \item{loadoutValue}{The total number of credits the player's loadout is
+#'    worth for the round}
+#'    \item{matchId}{A unique ID given to each match}
+#'    \item{teamId}{A unique ID given to each team}
+#'    \item{weaponCategory}{Lists the type of weapon from the weapon column}
+#'    \item{minCredsNextRound}{The minimum number of credits the player will
+#'    have the following round}
+#' }
+#' @source \url{https://www.rib.gg/}
+"Champs22Economy"
